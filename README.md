@@ -10,8 +10,7 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-<details closed>
-  <summary>Primeira Expecificação 🟢</summary>
+<summary>Primeira Expecificação 🟢</summary>
   <br>
      <p>
       As cores RGB modelam um sistema de cores aditivas em que o Vermelho (Red), o Verde (Green) e o Azul (Blue) são combinados de várias formas de modo a reproduzir um largo espectro cromático. Uma cor RGB é representada por uma 3-upla, onde cada elemento pode assumir um valor de 0 a 255, representando a quantidade de vermelho, verde e azul que compõem a cor.
@@ -53,10 +52,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
           <li> VI. método que crie uma nova imagem com o equivalente em tons de cinza. Essa imagem deve ter os valores de cada pixel da cor original substituido pelo seu equivalente em cor de cinza. 🟢
           <li> VII. método que verifique se uma imagem é um fragmento da outra 🟢
       </ul>
-    </details>
-    </ul>
-  </details>
-  <details open>
+
+
     <summary>Segunda Expecificação 🟠</summary>
     <br>
       <p>
@@ -83,7 +80,6 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
             <li> B = 255 × (1-Y)/100 × (1-K)/100 
           </ul>
       </ul>
-    </details>
 
 </br>
 
