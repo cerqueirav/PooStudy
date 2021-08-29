@@ -1,18 +1,3 @@
-
-<h3 align="center">
-    <img alt="Logo" title="#logo" width="300px" src="/assets/imgs/logo_java.png">
-    </br>
-    </br>
-    </br>
-    <b>First Exam</b>  
-</h3>
-  
-<p align="center">
-  <a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#features">Ajustes e melhorias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#technologies-used">Tecnologias Utilizadas</a>
-</p>
-
 <a id="about"></a>
 
 ## Sobre
