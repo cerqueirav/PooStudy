@@ -41,7 +41,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
                 <li> V.   BLUE #0000FF 🟢
             </ul>
     
-      <summary>Classe imagem 🟢</summary>
+    <p> Classe Imagem 🟠</p>
          Escreva uma classe que represente uma Imagem como um mapa bidimensional de cores RGB.
       <ul>
           <li> I. a representação estática da classe criada 🟢 
@@ -53,8 +53,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
           <li> VII. método que verifique se uma imagem é um fragmento da outra 🟢
       </ul>
 
-
-    <summary>Segunda Expecificação 🟠</summary>
+	<p> Segunda Expecificação 🟠</p>
     <br>
       <p>
         Um sistema de avaliação de mapas para corrida de orientação funciona como se segue:
