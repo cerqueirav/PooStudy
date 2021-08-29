@@ -18,10 +18,6 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
   
   Em cores RGB, a luminosidade é calculada através da expressão de luminosidade = (R*0.3 + G*0.59 + B *0.11) que deve ser truncada para um valor inteiro.
     </p>
-    <ul>
-        
-  <summary>Classe RGB 🟢</summary>
-    <ul>
         <li> I. Uma classe que represente uma cor RGB. 🟢
         <li> II. A representação estática da classe criada. 🟢
         <li> III. Os métodos que lêem e alteram os valores das componentes RGB da cor. 🟢
@@ -45,11 +41,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
                 <li> IV.  GREEN #00FF00 🟢
                 <li> V.   BLUE #0000FF 🟢
             </ul>
-    </ul>
-  </details>
-    </ul>
-     <ul>
-
+    
       <summary>Classe imagem 🟢</summary>
          Escreva uma classe que represente uma Imagem como um mapa bidimensional de cores RGB.
       <ul>
