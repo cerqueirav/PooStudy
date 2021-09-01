@@ -18,8 +18,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
     </p>
         <li> I. Uma classe que represente uma cor RGB. 🟢
         <li> II. A representação estática da classe criada. 🟢
-        <li> III. Os métodos que lêem e alteram os valores das componentes RGB da cor. 🟢
-        <li> IV. Um método que leia a luminosidade da cor. 🔴
+        <li> III. Os métodos que lêem e alteram os valores das componentes RGB da cor. 🟠
+        <li> IV. Um método que leia a luminosidade da cor. 🟢
         <li> V. Construtores sobrecarregados que permitam a criação de uma cor. 🔴
         <li> VI. Um construtor de cópia, que crie uma cor idêntica (mesmo valor de R, G e B). 🔴
         <li> VII. Um construtor sem parâmetros, que crie a cor preta (<R=0, G=0, B=0>). 🔴

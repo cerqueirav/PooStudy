@@ -5,12 +5,7 @@ public class testeRGB {
 		
 		System.out.println(novo.getRed());
 		
-		novo.setRed(7);
-		
-		novo.setBlue(11);
-			
-		System.out.println(novo.getRed());
-		System.out.println(novo.getBlue());
+		System.out.println(novo.getLuminosidade(40, 50, 60));
 		
 	}
 

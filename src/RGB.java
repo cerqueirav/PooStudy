@@ -2,15 +2,16 @@ public class RGB{
     private int red;
     private int green;
     private int blue;
-
+    
+    // Constructs 
     public RGB(int red_, int green_, int blue_){
     	this.red = red_;
     	this.green = green_;
     	this.blue = blue_;
     }
+    
 
     // Getters 
-    
     public int getRed(){
         return this.red;
     }
@@ -24,7 +25,6 @@ public class RGB{
     }
     
     // Setters
-    
     public void setRed(int newRed){
         this.red = newRed;
     }
@@ -35,6 +35,10 @@ public class RGB{
 
     public void setBlue(int newBlue){
         this.blue = newBlue;
+    }
+    
+    public int getLuminosidade (int red, int green, int blue) {
+    	return (int) ((red*0.3) + (green*0.59) + (blue*0.11));
     }
     
     public int isValidColor(int color){
