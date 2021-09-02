@@ -1,12 +1,17 @@
 public class testeRGB {
 	public static void main(String[] args) {
 		
-		RGB novo = new RGB(1, 2, 3);
+		// Teste unitário do metódo representar RGB em Hexa
+		  
+		RGB novo = new RGB(37, 150, 190);
 		
-		System.out.println(novo.getRed());
+		int value = novo.getLuminosidade(novo);
 		
-		System.out.println(novo.getLuminosidade(40, 50, 60));
+		RGB novo2 = new RGB(value, value, value);
 		
+		
+		System.out.println(novo.intToHex(novo));
+		
+		System.out.println(novo2.intToHex(novo2));
 	}
-
 }

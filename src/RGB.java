@@ -10,6 +10,17 @@ public class RGB{
     	this.blue = blue_;
     }
     
+    public RGB(RGB color){
+    	this.red = color.getRed();
+    	this.green = color.getGreen();
+    	this.blue = color.getBlue();
+    }
+    
+    public RGB(){
+    	this.red = 0;
+    	this.green = 0;
+    	this.blue = 0;
+    }
 
     // Getters 
     public int getRed(){
@@ -37,8 +48,25 @@ public class RGB{
         this.blue = newBlue;
     }
     
+    // Methods
     public int getLuminosidade (int red, int green, int blue) {
     	return (int) ((red*0.3) + (green*0.59) + (blue*0.11));
+    }
+    
+    public int getLuminosidade (RGB color) {
+    	return (int) ((color.getRed()*0.3) + (color.getGreen()*0.59) + (color.getBlue()*0.11));
+    }
+    
+    public String intToHex(RGB color){
+    	String colorHex;
+    	
+    	colorHex = (Integer.toHexString(color.getRed()));
+    	colorHex += (Integer.toHexString(color.getGreen()));
+    	colorHex += (Integer.toHexString(color.getBlue()));
+    	
+    	colorHex = colorHex.toUpperCase();
+    	
+    	return "#" +  colorHex;
     }
     
     public int isValidColor(int color){
