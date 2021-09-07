@@ -66,7 +66,12 @@ public class RGB{
     	
     	colorHex = colorHex.toUpperCase();
     	
-    	return "#" +  colorHex;
+    	return colorHex;
+    }
+    
+    public void clarear(RGB color) {
+    	String ret = color.intToHex(color);
+    	ret = 
     }
     
     public int isValidColor(int color){

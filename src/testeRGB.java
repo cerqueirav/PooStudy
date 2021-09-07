@@ -5,9 +5,7 @@ public class testeRGB {
 		  
 		RGB novo = new RGB(37, 150, 190);
 		
-		int value = novo.getLuminosidade(novo);
-		
-		RGB novo2 = new RGB(value, value, value);
+		RGB novo2 = new RGB(33, 135, 171);
 		
 		
 		System.out.println(novo.intToHex(novo));

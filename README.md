@@ -3,7 +3,6 @@
 ## Sobre
 
 
-
    Avaliação referente a disciplina Programação Orientada a Objetos, ministrada pelo professor [Frederico Barboza](http://lattes.cnpq.br/2897532678011764), por meio do repositorio que se encontra [aqui](https://github.com/pooinf008/inf008-20211/tree/master/especificacao).
 
 <a id="features"></a>
@@ -20,9 +19,9 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
     </p>
         <li> I. Uma classe que represente uma cor RGB. 🟢
         <li> II. A representação estática da classe criada. 🟢
-        <li> III. Os métodos que lêem e alteram os valores das componentes RGB da cor. 🟠
+        <li> III. Os métodos que lêem e alteram os valores das componentes RGB da cor. 🟢
         <li> IV. Um método que leia a luminosidade da cor. 🟢
-        <li> V. Construtores sobrecarregados que permitam a criação de uma cor. 🔴
+        <li> V. Construtores sobrecarregados que permitam a criação de uma cor. 🟠
         <li> VI. Um construtor de cópia, que crie uma cor idêntica (mesmo valor de R, G e B). 🔴
         <li> VII. Um construtor sem parâmetros, que crie a cor preta (<R=0, G=0, B=0>). 🟢
         <li> VIII. Um construtor que receba três valores como parâmetros e crie uma considerando estes valores como os valores de R, G e B, respectivamente. 🟢
