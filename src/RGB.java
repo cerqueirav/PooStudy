@@ -50,11 +50,17 @@ public class RGB{
     
     // Methods
     public int getLuminosidade (int red, int green, int blue) {
-    	return (int) ((red*0.3) + (green*0.59) + (blue*0.11));
+    	return ((int) Math.ceil((red*0.3) + (green*0.59) + (blue*0.11)));
     }
     
     public int getLuminosidade (RGB color) {
-    	return (int) ((color.getRed()*0.3) + (color.getGreen()*0.59) + (color.getBlue()*0.11));
+    	return (int) (Math.ceil(color.getRed()*0.3) + (color.getGreen()*0.59) + (color.getBlue()*0.11));
+    }
+    
+    public RGB grayConvert(){
+    	RGB auxRGB = new RGB (this.getLuminosidade(this), this.getLuminosidade(this), this.getLuminosidade(this));
+    	
+    	return auxRGB;
     }
     
     public String intToHex(RGB color){
@@ -66,13 +72,22 @@ public class RGB{
     	
     	colorHex = colorHex.toUpperCase();
     	
-    	return colorHex;
+    	return "#" + colorHex;
     }
     
-    public void clarear(RGB color) {
-    	String ret = color.intToHex(color);
-    	ret = 
+    public void clarear(double percent){
+    	this.setRed((int) Math.floor(this.getRed() + (this.getRed() * percent)));
+    	this.setGreen((int) Math.floor(this.getGreen() + (this.getGreen() * percent)));
+    	this.setBlue((int) Math.floor(this.getBlue() + (this.getBlue() * percent)));
     }
+   
+    
+    public void escurecer(double percent){
+    	this.setRed((int) Math.floor(this.getRed() - (this.getRed() * percent)));
+    	this.setGreen((int) Math.floor(this.getGreen() - (this.getGreen() * percent)));
+    	this.setBlue((int) Math.floor(this.getBlue() - (this.getBlue() * percent)));
+    }
+    
     
     public int isValidColor(int color){
     	if (color < 0 || color > 255)

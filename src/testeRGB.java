@@ -5,11 +5,11 @@ public class testeRGB {
 		  
 		RGB novo = new RGB(37, 150, 190);
 		
-		RGB novo2 = new RGB(33, 135, 171);
+		System.out.println(novo.intToHex(novo));
 		
+		novo.escurecer(0.1);
 		
 		System.out.println(novo.intToHex(novo));
 		
-		System.out.println(novo2.intToHex(novo2));
 	}
 }
