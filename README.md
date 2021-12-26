@@ -13,6 +13,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 <h3> Projetos/Atividades 🟠</h3>
         <li> I. APP para manipulação de cores (RGB e CMYK). 🟠
         <li> II. Exercícios do Laboratório de Programação Orientada a Objetos. 🟠
+
+
 ##### Legenda
 - 🟢 = `Feito`.
 - 🟠 = `Fazendo`.
